@@ -1,31 +1,69 @@
 {
-    "subscribes":[
+    "subscribes": [
         {
-            "url": "URL",
-            "tag": "tag_1",
+            "url": "https://jp2.hiddify.078919.xyz/c0D8eDgUEQ/49d3b209-0c0b-4ccc-977f-f0e1d6c98bed/clash/?asn=unknown#ts99",
+            "tag": "japan2",
             "enabled": true,
             "emoji": 1,
             "subgroup": "",
             "prefix": "",
-            "User-Agent":"v2rayng"
+            "User-Agent": "clashmeta"
         },
         {
-            "url": "URL",
-            "tag": "tag_2",
-            "enabled": false,
+            "url": "https://gitlab.com/api/v4/projects/huang5307%2Fxui/repository/files/xui_clashmeta.yaml/raw?ref=kr1&private_token=glpat-hYA3MgKULNpM4Yiqb31u",
+            "tag": "korea1",
+            "enabled": true,
+            "emoji": 1,
+            "subgroup": "",
+            "prefix": "🇰🇷 ",
+            "User-Agent": "clashmeta"
+        },
+        {
+            "url": "https://gitlab.com/api/v4/projects/huang5307%2Fxui/repository/files/xui_clashmeta.yaml/raw?ref=kr2&private_token=glpat-hYA3MgKULNpM4Yiqb31u",
+            "tag": "korea2",
+            "enabled": true,
+            "emoji": 1,
+            "subgroup": "",
+            "prefix": "🇰🇷 ",
+            "User-Agent": "clashmeta"
+        },
+        {
+            "url": "https://ai.ssrsub.com/api/v1/client/subscribe?token=f136f9bc643dabcdfda943141c97446e",
+            "tag": "ssrsub",
+            "enabled": true,
+            "emoji": 1,
+            "subgroup": "",
+            "prefix": "",
+            "ex-node-name": "网站|流量|过期",
+            "User-Agent": "clashmeta"
+        },
+        {
+            "url": "https://ym85o.no-mad-world.club/link/3rhUgukVqw38Bvty?clash=3&extend=1",
+            "tag": "ikuuu",
+            "enabled": true,
+            "emoji": 1,
+            "subgroup": "",
+            "prefix": "",
+            "ex-node-name": "网站|流量|过期",
+            "User-Agent": "clashmeta"
+        },
+        {
+            "url": "https://bpb.ts.cloudns.be/sub/38d22b30-7306-409e-918e-157990935c09#BPB-Normal",
+            "tag": "bpb",
+            "enabled": true,
             "emoji": 0,
-            "subgroup": "命名/named",
-            "prefix": "❤️",
-            "User-Agent":"clashmeta"
+            "subgroup": "",
+            "prefix": "🇺🇸  ",
+            "User-Agent": "clashmeta"
         }
     ],
-    "auto_set_outbounds_dns":{
+    "auto_set_outbounds_dns": {
         "proxy": "",
         "direct": ""
     },
     "save_config_path": "./config.json",
     "auto_backup": false,
-    "exclude_protocol":"ssr",
+    "exclude_protocol": "ssr",
     "config_template": "",
     "Only-nodes": false
 }
